@@ -3,7 +3,7 @@
 //    本程序利用了两个类——数字时钟和图形时钟类来实现
 
 //    v3.0
-//——made by 叶泽林
+//——made by shinshiner
 //——2016.11.19
 
 #include <FL/Fl.h>
