@@ -1,0 +1,110 @@
+\documentclass{mcmthesis}
+\mcmsetup{CTeX = false,   % 浣跨敤 CTeX 濂楄鏃讹紝璁剧疆涓?true
+        tcn = 61175, problem = D,
+        sheet = true, titleinsheet = true, keywordsinsheet =  false,
+        titlepage = false}
+\usepackage{palatino}
+\usepackage{mwe}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{indentfirst}
+\usepackage{gensymb}
+\usepackage[ruled,lined,commentsnumbered]{algorithm2e}
+
+\begin{document}
+\title{Optimizing the Passenger Throughput at an Airport Security Checkpoint}
+
+\date{\today}
+	\begin{abstract}
+		...
+	\end{abstract}
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+\subsection{Problem Restatement}
+	...
+\subsection{Problem Analyses}
+	...
+\section{Basic Assumptions}
+	In this section, we discuss ... 
+	\paragraph{Assumption 1.}\label{as1}
+		\emph{...}
+		reason...
+	
+	\paragraph{Assumption 2.}
+		\emph{...}
+		reason...
+	
+\section{Original Model}
+\subsection{Model Description}
+	In this section, we...
+	\begin{itemize}
+		\item \textbf{Part I}
+	\end{itemize}
+	...
+	\begin{itemize}
+		\item \textbf{Part II}
+	\end{itemize}
+	...
+
+\subsection{Evaluation Criteria for Security in Our Model}
+In this section, we discuss...
+
+\subsubsection{Average Waiting Time for Passengers and Waiting Time Variance}
+	...
+\subsubsection{SCE}
+	...
+\subsection{Calculation for Evaluation Criteria}
+
+\subsubsection{Average Waiting Time for Passengers and Waiting Time Variance}
+	...
+\subsubsection{SCE}	
+	...
+\subsection{Result and Analyses}
+\subsubsection{Result}
+	...
+\subsubsection{Analyses}
+	...
+\section{Model Optimization}
+	...
+\section{Evaluation and Further Discussions}
+\subsection{Sensitivity Analysis}
+	...
+	
+\subsection{Strengths and Weaknesses}
+
+\subsubsection{Strengths}
+	\begin{itemize}
+		\item ...
+	\end{itemize}
+	
+\subsubsection{Weaknesses}
+	\begin{itemize}
+		\item ...
+	\end{itemize}
+
+\section{Proposals about Security Check Points}
+
+	...
+
+\bibliographystyle{IEEEtran}
+\bibliography{newrefs}
+	
+\newpage
+	
+\begin{appendices}		
+	\section{Simulation Code}
+			
+	Our simulation codes written in \textcolor[rgb]{0.98,0.00,0.00}{\textbf{Visual Studio 2015:}}
+	\lstinputlisting[language=C++]{modal_a.cpp}
+		
+\end{appendices}
+\end{document}
