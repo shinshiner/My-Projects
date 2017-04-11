@@ -3,8 +3,7 @@ Project1 of Computer Architecture
 Directions to Students
 ***********************
 
-Your goal is to modify your copy of bits.c so that it passes all the
-tests in btest without violating any of the coding guidelines.
+Your goal is to modify your copy of bits.c so that it passes all the tests in btest without violating any of the coding guidelines.
 
 
 *********
