@@ -8,7 +8,8 @@ namespace sjtu {
 	template<class T1, class T2>
 	class pair {
 	public:
-		T1 first; T2 second;
+		T1 first;
+		T2 second;
 		constexpr pair() : first(), second() {}
 		pair(const pair &other) = default;
 		pair(pair &&other) = default;
