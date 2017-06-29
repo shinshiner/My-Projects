@@ -13,3 +13,4 @@
 ## 其它
 * 2017年美赛ICM
 * windows桌面（rainmeter）
+* python爬虫
