@@ -7,6 +7,10 @@
 * [crawlerForWK.py](https://github.com/shinshiner/My-Projects/blob/master/Crawler/crawlerForWK.py)
 
     爬取baidu文库中给定页数的文字内容
+    
+* [naiveNovel.py](https://github.com/shinshiner/My-Projects/blob/master/Crawler/naiveNovel.py)
+
+    爬取某网站小说的指定卷和指定章节文本
 
 ## 爬取图片
 * [getPicFromTieBa.py](https://github.com/shinshiner/My-Projects/blob/master/Crawler/getPicFromTieBa.py)
